@@ -12,23 +12,46 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <ul id="socialmedia" class="dropdown-content">
+    <li><a href="https://twitter.com/DigitalWomenISU" target="_blank" class="deep-purple-text">Facebook</a></li>
+    <li><a href="https://twitter.com/DigitalWomenISU" target="_blank" class="deep-purple-text">Twitter</a></li>
+    <li><a href="https://github.com/digitalwomen" target="_blank" class="deep-purple-text">GitHub</a></li>
+  </ul>
+
+  <ul id="socialmedia_mob" class="dropdown-content">
+    <li><a href="https://twitter.com/DigitalWomenISU" target="_blank" class="deep-purple-text">Facebook</a></li>
+    <li><a href="https://twitter.com/DigitalWomenISU" target="_blank" class="deep-purple-text">Twitter</a></li>
+    <li><a href="https://github.com/digitalwomen" target="_blank" class="deep-purple-text">GitHub</a></li>
+  </ul>
+
   <nav class="grey darken-3" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Digital Women</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Meetings</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#meetings">Meetings</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="press.html">Press</a></li>
+        <li><a href="https://www.stuorg.iastate.edu/site/dw1/join" target="_blank">Join</a></li>
+        
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="socialmedia">Social Media<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Meetings</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#meetings">Meetings</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="press.html">Press</a></li>
+        <li><a href="https://www.stuorg.iastate.edu/site/dw1/join" target="_blank">Join</a></li>
+        <!-- <li><a href="https://twitter.com/DigitalWomenISU" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/DigitalWomenISU" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/digitalwomen" target="_blank">GitHub</a></li> -->
+        <li><a class="dropdown-button" href="#!" data-activates="socialmedia_mob">Social Media<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -45,7 +68,7 @@
         <br />
         <p>
           <h1>Digital Women</h1>
-          <h3>{ Iowa State University }</h3>
+          <h4>{ Iowa State University }</h4>
         </p>
         <br />
     </div>
@@ -56,6 +79,7 @@
   <div class="container">
     <div class="section">
       <!-- ABOUT US -->
+      <a name="about"></a>
       <div class="row">
         <h2 class="header col s12 center">
           ABOUT US
@@ -95,6 +119,7 @@
 <div class="grey lighten-4">
   <div class="container">
     <div class="section">
+      <a name="meetings"></a>
       <div class="row">
         <div class="col s12">
           <h2 class="header col s12 center">
@@ -208,18 +233,20 @@
   </div>
 </div> 
 
-  <!-- <div class="container">
+<div class="grey lighten-3">
+  <div class="container">
     <div class="section">
       <div class="row">
+        <a name="faq"></a>
         <div class="col s12">
           <h2 class="header col s12 center">
             FAQ
           </h2>
+          <div class="row center">
 
-          <div class="row">
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                <h2 class="center deep-purple-text"><i class="material-icons">people</i></h2>
                 <h5 class="center">Do I have to attend every meeting?</h5>
 
                 <p class="light">Nope! Feel free to come and go to meetings you are able to attend. You will always be welcomed whether you attend one meeting in a semester, or 15.</p>
@@ -228,31 +255,33 @@
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                <h2 class="center deep-purple-text"><i class="material-icons">local_dining</i></h2>
                 <h5 class="center">Will food be provided?</h5>
 
-                <p class="light">YES!</p>
+                <p class="light"><span class="about-special">YES!</span> Food choices vary by week. If there's something specific you want you should <a href="https://twitter.com/DigitalWomenISU">tweet us</a>, <a href="https://www.facebook.com/digitalwomenisu/">post on our Facebook</a>, or let someone on exec know so we can accommodate!</p>
               </div>
             </div>
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-                <h5 class="center">When are elections held?</h5>
+                <h2 class="center deep-purple-text"><i class="material-icons">person_add</i></h2>
+                <h5 class="center">Do I have to be in CS/CPRE/EE/SE/MIS to join?</h5>
 
-                <p class="light">Elections are held at the end of every semester. President and Treasurer are year-long positions and chosen in the spring semester.</p>
+                <p class="light">Nope. While we highly encourage you to be in one of our focus majors, a love for technology is all that's required to join! :)</p>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+</div>
 
-<div class="grey lighten-3">
+<div class="grey lighten-2">
   <div class="container exec-members">
     <div class="section">
+      <a name="team"></a>
       <div class="row">
         <div class="col s12">
           <h2 class="header col s12 center">
@@ -263,8 +292,8 @@
             <div id="President">
               <span class="position-special">President</span> - Gabby Ortman
               <br />
-              <img src="images/officers/cat1.jpg">
-              Gabby is a junior in Computer Science. She loves Python, betta fish and The Legend of Zelda series.
+              <img src="images/officers/gabby.jpg">
+              Gabby is a junior in Computer Science. She loves Python, betta fish and The Legend of Zelda series. Contact Gabby if you want to visit her Animal Crossing town, Star Bay. 
               <br /><a href="mailto:ortmangm@iastate.edu">E-Mail</a> - <a href="https://www.linkedin.com/in/gabbyortman">LinkedIn</a> - <a href="https://github.com/nucle0tides">GitHub</a> - <a href="http://gabbyortman.me/">Website</a>
             </div>
             <br style="clear:left" />
@@ -272,18 +301,19 @@
             <div>
               <span class="position-special">Vice President && Secretary</span> - Ellen Holland 
               <br />
-              <img src="images/officers/cat2.jpg">
+              <img src="images/officers/ellen.png">
               Ellen is a junior in Software Engineering. Her spirit animal is a Hobbit, primarily a Took.  
-              <br /><a href="mailto:">E-Mail</a>
+              <br /><a href="mailto:ellenh@iastate.edu">E-Mail</a> - <a href="  
+https://www.linkedin.com/in/ellen-holland-316224101">LinkedIn</a> - <a href="https://github.com/ellenmight">GitHub</a>
             </div>
             <br style="clear:left" />
             <br />
             <div>
               <span class="position-special">Treasurer</span> - Betsy Losen 
               <br />
-              <img src="images/officers/cat3.jpg">
+              <img src="images/officers/betsy.jpg">
               Betsy is a Pre-Industrial Design major. She is sustained by ice cream and homemade curry. She also points out every bunny she sees. 
-              <br /><a href="mailto:ealosen@iastate.edu">E-Mail</a> - <a href="https://www.linkedin.com/in/betsylosen">LinkedIn</a>
+              <br /><a href="mailto:ealosen@iastate.edu">E-Mail</a> - <a href="https://www.linkedin.com/in/betsylosen">LinkedIn</a> - <a href="https://github.com/elizabetsylosen">GitHub</a>
             </div>
             <br style="clear:left" />
             <br />
@@ -291,8 +321,9 @@
               <span class="position-special">Industry Relations</span> - Kate McClintock
               <br />
               <img src="images/officers/cat1.jpg">
-              fajdfkasdjf;kdasf;dsakjf
-              <br /><a href="mailto:">E-Mail</a> - <a href="">LinkedIn</a>
+              
+              <br /><a href="mailto:katmc@iastate.edu
+">E-Mail</a>
             </div>
             <br style="clear:left" />
             <br />
@@ -303,8 +334,8 @@
               <span class="position-special">Outreach</span> - Kate Litscher
               <br />
               <img src="images/officers/cat2.jpg">
-              flfjasdkflasdf
-              <br /><a href="mailto:">E-Mail</a> - <a href="">LinkedIn</a>
+              
+              <br /><a href="mailto:litscher@iastate.edu">E-Mail</a> 
             </div>
             <br style="clear:left" />
             <br />
@@ -312,16 +343,17 @@
               <span class="position-special">Grace Hopper</span> - Christine Hicaro
               <br />
               <img src="images/officers/cat1.jpg">
-              fsdjasdf;afd
-              <br /><a href="mailto:">E-Mail</a> - <a href="">LinkedIn</a>
+              
+              <br /><a href="mailto:">E-Mail</a> - <a href="  
+https://www.linkedin.com/in/christinehicaro">LinkedIn</a>
             <br style="clear:left" />
             <br />
             <div>
               <span class="position-special">Social</span> - Ashley Dvorsky
               <br />
               <img src="images/officers/cat2.jpg">
-              fkdasfakdsf 
-              <br /><a href="mailto:">E-Mail</a> - <a href="">LinkedIn</a>
+               
+              <br /><a href="mailto:advorsky@iastate.edu">E-Mail</a>
               <br />
             </div>
             <br style="clear:left" />
@@ -330,8 +362,8 @@
               <span class="position-special">Public Relations</span> - Valery Smith
               <br />
               <img src="images/officers/cat3.jpg">
-              fajsdfajsd;f
-              <br /><a href="mailto:">E-Mail</a> - <a href="">LinkedIn</a>
+              
+              <br /><a href="mailto:spanda8@iastate.edu">E-Mail</a>
             </div>
             <br style="clear:left" />
             <br />
@@ -342,9 +374,29 @@
   </div>
 </div>
 
-<div class="grey lighten-2">
+<!-- <div class="grey lighten-1"> 
+    <div class="container">
+      <div class="section">
+        <a name="contact"></a>
+        <div class="row">
+          <div class="col s12 center">
+            <h5 class="deep-purple-text">Elsewhere on the Web</h5>
+              <p class="text-lighten-4">
+                <a class="tooltipped deep-purple-text" data-position="bottom" data-delay="50" data-tooltip="Join Digital Women" target="_blank" href="https://www.stuorg.iastate.edu/site/dw1/join"><i class="fa fa-sign-in fa-4x"></i></a>&emsp;
+                <a class="tooltipped deep-purple-text" data-position="bottom" data-delay="50" data-tooltip="Like Digital Women on Facebook" target="_blank" href="https://www.facebook.com/digitalwomenisu/"><i class="fa fa-facebook fa-4x"></i></a>&emsp;
+                <a class="tooltipped deep-purple-text" data-position="bottom" data-delay="50" data-tooltip="Follow Digital Women on Twitter" target="_blank" href="https://twitter.com/DigitalWomenISU"><i class="fa fa-twitter fa-4x"></i></a>&emsp;
+                <a class="tooltipped deep-purple-text" data-position="bottom" data-delay="50" data-tooltip="Fork Digital Women on GitHub" target="_blank" href="https://github.com/digitalwomen"><i class="fa fa-code-fork fa-4x"></i></a>&emsp;
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> -->
+
+<div class="white">
   <div class="container">
-    <div class="section">
+    <div class="section center">
+      <a name="sponsors"></a>
       <div class="row">
         <div class="col s12">
           <h2 class="header col s12 center">
@@ -352,6 +404,43 @@
           </h2>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col s12">
+          <img class="responsive-img" src="images/sponsors/ecpe.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l6">
+          <img class="responsive-img" src="images/sponsors/garmin.jpg">
+        </div>
+        <div class="col l6">
+          <img class="responsive-img" src="images/sponsors/rockwell.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <img class="responsive-img" src="images/sponsors/WiSE.png">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l6">
+          <img class="responsive-img" src="images/sponsors/unionpacific.png">
+        </div>
+        <div class="col l6">
+          <img class="responsive-img" src="images/sponsors/pfg.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <img class="responsive-img" src="images/sponsors/computerscience.jpg">
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -360,13 +449,7 @@
     <div class="container">
       <div class="row">
         <div class="col s12 center">
-          <h5 class="white-text">Follow Us on Social Media!</h5>
-          <p class="grey-text text-lighten-4">
-            <a class="white-text" href="#!"><i class="fa fa-sign-in fa-4x"></i></a> &emsp;
-            <a class="white-text" href="#!"><i class="fa fa-facebook fa-4x"></i></a> &emsp;
-            <a class="white-text" href="#!"><i class="fa fa-twitter fa-4x"></i></a> &emsp;
-            <a class="white-text" href="#!"><i class="fa fa-code-fork fa-4x"></i></a> &emsp;
-          </p>
+          <img class="responsive-img logo" src="images/horizontal_logo.png">
         </div>
       </div>
     </div>

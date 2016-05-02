@@ -17,12 +17,25 @@
 
 
 ##Getting Started: 
-####Here are a few tips to start creating a website
+####Here are a few things to start with when creating a website
 
 Designing a website is a lot of fun, however there are a few things you need to take care of before you can really dive in.
-- [ ] Find an IDE you're comfortable with (grab them while you're still a student!)
+- [ ] Find an IDE you're comfortable with (grab them for free while you're still a student!)
+<ul>
+  <li> There are many different IDEs you can choose from
+  </li>
+  <li> Eclipse, IntelliJ IDEA, WebStorm, Visual Studio
+  </li>
+</ul>
 - [ ] Understand git
 - [ ] Clone the DW-Website repository and create your own branch
 - [ ] Find a framework that you want to work with
-
+<ul>
+  <li>It's good to find ones with lots of examples online
+  </li>
+  <li> They key element you want from a framework is responsiveness
+  </li>
+  <li> Bootstrap, Foundation, Skeleton, Materialize...
+  </li>
+</ul>
 
